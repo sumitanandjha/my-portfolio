@@ -1,0 +1,80 @@
+.about-section {
+    padding: 3rem 1rem;
+    background-color: #f9fafb;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4f46e5;
+    margin-bottom: 1rem;
+    animation: slideDown 1.5s ease-in-out;
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  .highlight {
+    color: #4f46e5;
+    font-weight: bold;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    transform: scale(1.1);
+    background-color: #4338ca;
+  }
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
